@@ -14,7 +14,7 @@ The project was to refactor the codebase for a marketing agency that meets acces
 
 ## Installation
 
-The project can be viewed using the URL file:///C:/Users/al0218/Desktop/Challenge%201/Accessibility-Challenge/index.html or by accessing my public Git Hub https://github.com/achillesthree/Accessibility-Challenge
+The project can be viewed using the URL https://achillesthree.github.io/HW-1/ or by accessing my public Git Hub https://github.com/achillesthree/Accessibility-Challenge
 
 ## Usage
 
