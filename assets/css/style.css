@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* The above styling designates universal styling for box size, padding and margin for the whole page as designated by the blue star */
+body {
+    background-color: #d9dcd6;
+}
+/* The above styling designates a white background throughout the page */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* The above styling designates padding, font family, background color of blue and text color of white for just the header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* The above styling designates a placement inline block and font size 48 for the header h1 */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* The above styling designates that the seo portion of the header be alittle more off white than the other letters in header h1 */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* The above styling designates a padding top size of 15px, margin right of 20px, floating right, font family with options for other browers, and a font size of 20px */
+.header div ul {
+    list-style-type: none;
+}
+/* The above styling designates a list style of none */
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* The above styling designates inline block placement of the header with a 25px left margain */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* The above styling designates white text for the rest of the page with no text decroation */
+p {
+    font-size: 16px;
+}
+/* The above styling designates a 16px font throughout the paragrpahs on this page */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* The above styling designates the h and w of the main image called hero. Also gives it a margin, makes the iamge a background to cover and center */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* The above styling designates the picture that has been floated left will stay left and have a margin of 25px */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* The above styling designates the picture that has been floated right will stay right and have a margin of 25px */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* The above styling designates that the content box will take up 75% of the page, inline blocked with a left margin of 20px */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* The above styling designates that the benefits section will have a right margin of 20px, padding of 20px, be clear on both sides, float to the right with a width 20% of the screen, height of 100%, font family with replacements and finally a background color of a slightly lighter blue */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* The above styling designates that the benefit lead section will have a bottom margin of 32px and the text will be white */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* The above styling designates that the benefit brand section will have a bottom margin of 32px and the text will be white */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* The above styling designates that the benefit cost section will have a bottom margin of 32px and the text will be white */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* The above styling designates that the all h3s in benefits section will have a bottom margin of 10px and the text will be centered */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* The above styling designates that the all h3s in benefits section will have a bottom margin of 10px and the text will be centered */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* The above styling designates that the all h3s in benefits section will have a bottom margin of 10px and the text will be centered */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* The above styling designates that the benefit lead img will display as block with a 10px auto margin and a max width of the img of 150px */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* The above styling designates that the benefit brand img will display as block with a 10px auto margin and a max width of the img of 150px */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* The above styling designates that the benefit cost img will display as block with a 10px auto margin and a max width of the img of 150px */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* The above styling designates that the SEO box has a mb of 20px, a padding of 50px, a height of 300px, font family with extras, background of blue and text of white */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* The above styling designates that the MRM box has a mb of 20px, a padding of 50px, a height of 300px, font family with extras, background of blue and text of white */
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* The above styling designates that the SMM box has a mb of 20px, a padding of 50px, a height of 300px, font family with extras, background of blue and text of white */
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* The above styling designates that the SEO box img has a max height of 200px */
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* The above styling designates that the ORM box img has a max height of 200px */
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* The above styling designates that the SNN box img has a max height of 200px */
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* The above styling designates that the SEO h2 have an mb of 20px and the text font size of 36px */
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* The above styling designates that the ORM h2 have an mb of 20px and the text font size of 36px */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* The above styling designates that the SMM h2 have an mb of 20px and the text font size of 36px */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* The above styling designates that the footer include padding of 30px, be clear on both sides, font families, and that the text would be centered */
+
+.footer h2 {
+    font-size: 20px;
+}
+/* The above styling designates that the footer words be font size of 20px */
