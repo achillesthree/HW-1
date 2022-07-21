@@ -2,7 +2,7 @@
 
 ## Description
 
-The project was to refactor the codebase for a marketing agency that meets accessibility standards so that the website is optimized for search engines. The reason why was so that I could get a better understanding of improving existing code without changing what it does. The solved problem will enable the marketing agency to get more traffic to the site. I learned many things, but commenting in the CSS sheet was huge for me. Describing what I see then I'll be able to create easier and faster.
+The project was to refactor the codebase for a marketing agency that meets accessibility standards, so that the website is optimized for search engines. The reason why was so that I could get a better understanding of improving existing code without changing what it does. The solved problem will enable the marketing agency to potentially see more traffic to the site. I learned many things, but commenting in the CSS sheet was huge for me. While describing what I see, then I'll be able to create easier and faster.
 
 ## Table of Contents
 
@@ -14,17 +14,17 @@ The project was to refactor the codebase for a marketing agency that meets acces
 
 ## Installation
 
-The project can be viewed using the URL https://achillesthree.github.io/HW-1/ or by accessing my public Git Hub https://github.com/achillesthree/Accessibility-Challenge
+The project can be viewed using the URL https://achillesthree.github.io/HW-1/ or by accessing my public Git Hub https://github.com/achillesthree/HW-1
 
 ## Usage
 
-Basic usage for this site applies.
+Basic usage for this site/project applies.
 
 ## Credits
 
 Collaborators included Shahid, Eric my instructor, Mike my TA and others in class for directional help.
 
-Third-party assets were acquired through OSU BCS.
+Third-party assets were acquired through OSU and BCS.
 
 HTML Tutorials used for this project all come from: https://www.w3schools.com/html/default.asp.
 README Tutorials and formatting used for this project come from: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
